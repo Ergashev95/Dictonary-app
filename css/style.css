@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Design System */
+
+:root {
+    --050505: #050505;
+    --1F1F1F: #1F1F1F;
+    --2D2D2D: #2D2D2D;
+    --3A3A3A: #3A3A3A;
+    --757575: #757575;
+    --E9E9E9: #E9E9E9;
+    --F4F4F4: #F4F4F4;
+    --CECECE: #CECECE;
+    --A445ED: #A445ED;
+    --FF5252: #FF5252;
+    --SansSerif: "Inter";
+    --Serif: "Serif";
+    --Mono: "Mono"
+
+}
+
+
+/* GLOBAL STYLES */
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ .elBtn {
+     width: 75px;
+     height: 75px;
+     background-color: #E8D0FA;
+     border-radius: 50%;
+     border: unset;
+     color: var(--A445ED) ;
+     transition: .5s;
+
+ }
+.elBtn:hover {
+    background-color: var(--A445ED);
+    color: white;
+}
+
+ /* CONTAINER */
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    font-family: var(--SansSerif);
+
+}
